@@ -1,0 +1,35 @@
+.loginBoard{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mainBoard{
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+p{
+
+    margin: auto;
+}
+
+.loginBoard .ant-form{
+    width: 500px;
+    margin: auto;
+}
+
+.loginBoard .ant-form .ant-form-item-label > label{
+    color: white;
+}
+
+.loginBoard .ant-form .ant-checkbox-wrapper{
+    color: aliceblue;
+}
+
+.loginBoard .ant-form .ant-row ant-form-item:nth-of-type(3){
+ text-align: center;
+}

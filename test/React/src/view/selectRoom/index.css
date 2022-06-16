@@ -1,0 +1,233 @@
+
+
+div > p:nth-of-type(1){
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    color:white;
+}
+
+
+
+.but_board{
+    width: 900px;
+    margin:auto;
+}
+
+
+
+.small_room{
+    background-color:black;
+    display: block;
+    border-color: white;
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    /* text-align: center; */
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+
+.party_room{
+    background-color:black;
+    display: block;
+    border-color: 1px solid white;
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.confirmBtn{
+    width: 800px;
+    margin: auto;
+    margin-top: 15px;
+    position: relative;
+
+}
+
+
+ 
+
+.confirmBtn .confirm{
+    margin-top: 30px;
+    margin: auto;
+    display:block;
+    border-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    width: 115px;
+    height: 36px;
+    border: 1px solid white;
+    background-color: black;
+    color:white;
+}
+
+
+
+.dataInputBoard .inputDate {
+    color: #F1F9FF;
+    border: 1px solid white;
+    background-color: black;
+
+    width: 390px;
+    display: inline;
+    position: absolute;
+    top: -20px;
+    left: 410px;
+}
+
+body .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    width: 390px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    display: block;
+    
+    /* margin-top: 20px; */
+}
+
+
+.dataInputBoard {
+    width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.dataInputBoard .ant-picker-input > input{
+    color: #F1F9FF;
+}
+
+body .dataInputBoard .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    width: 390px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    display: block;
+    margin-left: 20px;
+}
+
+.ant-select {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 20px;
+    left: -19px;
+}
+
+.timePeriod{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.ant-select-show-search.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    width: 800px;
+    margin-left: 20px;
+    color: black;
+}
+
+.ant-select-multiple .ant-select-selection-item{
+background-color: black;
+}
+
+
+.select_room .dataInputBoard .select_Number_of_people{
+    float: left;
+    width: 390px;
+}
+
+
+.ant-radio-group .ant-radio-button-wrapper {
+    width: 390px;
+    margin-bottom: 10px;
+    color: #fff;
+    background: #000000;
+    border-color: #ffffff;
+}
+
+
+.ant-radio-button-wrapper:nth-of-type(2n-1) {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.ant-radio-button{
+    background-color: #000000;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.room_item .ant-radio-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+label{
+    border-color: #ffffff;
+}
+
+span{
+    color: white;
+}
+.ant-btn{
+    background-color: black !important;
+    border:1px solid white ;
+    color: white !important;
+    height: 30px;
+}
+.select_room{
+ width: 800px;
+ margin: auto;
+ text-align: center;
+}
+
+.select_room .room_item{
+    width: 800px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.select_room .room_item:nth-of-type(-n+2) button{
+    width: 390px;
+}
+.select_room .room_item:nth-of-type(-n+2) button:nth-of-type(1){
+    margin-right: 20px;
+}
+
+.select_room .room_item:nth-of-type(3) button{
+    width: 253.3px;
+}
+.select_room .room_item:nth-of-type(3) button:nth-of-type(-n+2){
+    margin-right: 20px;
+}
+
+.select_room .room_item:nth-of-type(4) button{
+    width: 800px;
+}
+.ant-select-selection-item{
+    color: white;
+    background: #000 !important;
+}
+
+.completeAlert{
+    position: absolute;
+    top: 10px;
+    left: 475px;
+    font-size: 17px;
+    color: red;
+}

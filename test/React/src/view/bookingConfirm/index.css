@@ -1,0 +1,49 @@
+
+
+.comfirmationShow{
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+ .comfirmationShow .confirmationDetails{
+    border: 1px solid white;
+    width: 100%;
+    top: 100px;
+
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    color:white
+}
+
+body .ant-descriptions-title{
+    color: white;
+    border: 1px solid white;
+} 
+body .ant-descriptions-item-content {
+    color: aliceblue;
+}
+
+body .ant-descriptions-item-label{
+    color: aliceblue;
+}
+
+.ant-descriptions-row > th, .ant-descriptions-row > td {
+    padding-bottom: 16px;
+    display: block;
+    margin-top: 30px;
+}
+
+.ant-descriptions-item{
+    margin-left: 110px;
+}
+
+:global(.ant-descriptions-item-container .ant-descriptions-item-label, .ant-descriptions-item-container .ant-descriptions-item-content) {
+    display: inline;
+    float: right;
+}
+
+.ant-descriptions-item-content{
+    float: right;
+}

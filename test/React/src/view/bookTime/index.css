@@ -1,0 +1,154 @@
+html body{
+    background-color: black;
+}
+
+.select_time p {
+    color:black;
+}
+
+
+.select_time .numberPeople{
+    width: 300px;
+    height: 30px;
+    /* padding-left: 243px; */
+    margin-left: 390px;
+    color:#b5aeae;
+    background-color: black;
+    border: 1px solid white;
+    display: block;
+    /* text-align: center; */
+    margin:auto; 
+    margin-top: 20px;
+}
+
+.select_time .name{
+    width: 300px;
+    height: 30px;
+    color:#b5aeae;
+    background-color: black;
+    border: 1px solid white;
+    display: block;
+    /* text-align: center; */
+    margin:auto; 
+    margin-top: 20px;
+    /* padding-left: 243px; */
+}
+
+.select_time .phone{
+    width: 300px;
+    height: 30px;
+    color:#b5aeae;
+    background-color: black;
+    border: 1px solid white;
+    display: block;
+    /* text-align: center; */
+    margin:auto; 
+    margin-top: 20px;
+    /* padding-left: 243px; */
+}
+
+.select_time .date{
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    display: block;
+    /* text-align: center; */
+    margin:auto; 
+    margin-top: 20px;
+
+
+}
+ 
+
+.select_time .submit_div{
+    padding-top: 20px;
+}
+
+.select_time .submit_div .submit{
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    display: block;
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin:auto; 
+}
+
+.select_time .time_period{
+    width: 300px;
+    height: 30px;
+    color:black;
+    background-color: black;
+    border: 1px solid white;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    /* text-align: center; */
+    margin:auto; 
+}
+
+.ant-picker{
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    display: block;
+    margin-top: 20px;
+    /* margin-left: 390px; */
+}
+
+body .ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    display: block;  
+    /* margin-top: 20px;   */
+}
+
+.select_time .period {
+    padding-top: 20px;
+}
+
+
+
+.alert_phone{
+    position: absolute;
+    /* background-color: white; */
+    top: 210px;
+    left: 695px;
+    color: white;
+}
+
+.ant-input-number {
+    position: relative;
+}
+
+.alert_phone_message{
+    position: absolute;
+    left: 635px;
+    top: 208px;
+}
+
+.alert_message{
+    position: absolute;
+    left: 635px;
+    top: 163px;
+}
+.alerMeassageDiv{
+    text-align: center;
+    margin-top: 10px;
+    width: 865px;
+    height: 50px;
+}
+.completeAlertbooktime{
+    margin-top: 10px;
+    font-size: 15px;
+    color: red;
+}
+
+.message{
+    color: black !important;
+}

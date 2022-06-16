@@ -1,0 +1,20 @@
+.success_book{
+  width: 400px;
+  margin: auto;
+  /* background-color: red; */
+  padding-top: 7%;
+  font-size: 20px;
+}
+
+.success_book > p:first-child{
+  color: #9d9cf4;
+  text-align: center;
+  font-size: 30px;  
+}
+
+.success_book > div > p > span:nth-of-type(2n + 0){
+  float:right;
+  /* width:50%;  */
+  
+}
+

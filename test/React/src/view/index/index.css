@@ -1,0 +1,13 @@
+.starting_page{
+  text-align: center;
+  margin-top: 200px;
+}
+  
+  .starting_page button{
+    background-color: black;
+    border: 1px solid white;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border-radius: 4px;
+  }
